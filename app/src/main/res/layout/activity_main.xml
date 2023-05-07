@@ -40,11 +40,11 @@
             <Button
                 android:id="@+id/button_count"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="117dp"
                 android:layout_below="@+id/show_count"
                 android:onClick="countUp"
                 android:text="@string/button_label_count"
-                android:textColor="#FFFFFF"
+                android:textColor="#A2C2C1"
                 app:cornerRadius="0dp" />
         </LinearLayout>
 
@@ -52,7 +52,7 @@
             android:id="@+id/show_count"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#9C27B0"
+            android:background="#673AB7"
             android:gravity="center"
             android:text="@string/count_initial_value"
             android:textColor="@android:color/holo_purple"
